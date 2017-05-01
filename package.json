@@ -4,10 +4,7 @@
   "description": "Simple_React-Fullstack",
   "main": "server/server.js",
   "scripts": {
-    "lint": "eslint \"**/*.js\"",
-    "lint:fix": "eslint \"**/*.js\" --fix",
     "test": "mocha tests/server/api_spec.js",
-    "postinstall": "webpack --progress",
     "start": "node server/server.js"
   },
   "engines": {

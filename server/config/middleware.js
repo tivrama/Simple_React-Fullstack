@@ -3,7 +3,7 @@ var path = require('path');
 var morgan = require('morgan');
 var bodyParser = require('body-parser');
 
-var mainRoutes = require('../food/mainRoutes.js');
+var mainRoutes = require('../main/mainRoutes.js');
 
 module.exports = function (app, express) {
   var mainRouter = express.Router();
